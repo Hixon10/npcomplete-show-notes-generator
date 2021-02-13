@@ -5,3 +5,5 @@
 ![Example](https://hsto.org/webt/vm/bj/vm/vmbjvmmerxudo5yyvw8iq8-88e0.png)
 
 This project was inspired by https://github.com/SBozhko/devzen-shownote-generator
+
+You can read a bit more about this extension on the <a href="https://habr.com/ru/post/541162/">habr</a> [RUS].
