@@ -8,7 +8,7 @@
         return;
     }
     window.hasRun = true;
-    window.onload = init;
+    init()
 
     var startTime = new Date();
 
@@ -24,6 +24,10 @@
         let prevNode = document.getElementById('workspaces-preamble-invite-button');
         if (prevNode == null) {
             console.log("prevNode == null");
+            setTimeout(
+                function() {
+                    init();
+                }, 3000);
             return
         }
 
